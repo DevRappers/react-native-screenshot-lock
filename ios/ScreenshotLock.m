@@ -33,9 +33,4 @@ RCT_EXPORT_MODULE()
     [self.bridge.eventDispatcher sendAppEventWithName:@"ScreenshotTaken" body:nil];
 }
 
-RCT_EXPORT_METHOD(screenLock: void) {
-}
-RCT_EXPORT_METHOD(screenUnLock: void) {
-}
-
 @end

@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-screenshot-lock.git",
-    "baseUrl": "https://github.com/github_account/react-native-screenshot-lock"
+    "url": "git+https://github.com/DevRappers/react-native-screenshot-lock.git",
+    "baseUrl": "https://github.com/DevRappers/react-native-screenshot-lock"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "DevRappers",
+    "email": "devrappers@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",

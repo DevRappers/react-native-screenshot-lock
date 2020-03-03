@@ -1,5 +1,11 @@
-import { NativeModules } from 'react-native';
+import { useEffect } from 'react';
+import { register, unregister } from './lockScreenShot';
 
-const { ScreenshotLock } = NativeModules;
+const useLockScreenShot = () => {
+    useEffect(() => {
+        register();
+        return () => unregister();
+    }, []);
+};
 
-export default ScreenshotLock;
+export default useLockScreenShot;

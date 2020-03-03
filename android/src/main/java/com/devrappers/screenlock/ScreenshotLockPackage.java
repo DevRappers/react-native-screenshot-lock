@@ -1,5 +1,6 @@
-package com.reactlibrary;
+package com.devrappers.screenlock;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -16,8 +17,12 @@ public class ScreenshotLockPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new ScreenshotLockModule(reactContext));
     }
 
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+        return Collections.emptyList();
+    }
+
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-        return Collections.emptyList();
+        return new ArrayList<>();
     }
 }

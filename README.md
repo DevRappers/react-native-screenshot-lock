@@ -4,9 +4,8 @@
 
 `$ npm install react-native-screenshot-lock --save`
 
-### Mostly automatic installation
-
-`$ react-native link react-native-screenshot-lock`
+ReactNative >= 0.60.0
+`$ pod install`
 
 #### Android Manual
 1. Append the following lines to `android/settings.gradle`

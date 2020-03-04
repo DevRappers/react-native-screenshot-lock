@@ -35,20 +35,35 @@ implementation project(':react-native-screenshot-lock')
 }
 ```
 
-## Usage
+## Usage 1
 ```javascript
-import useLockScreenShot, {register, unregister} from 'react-native-screenshot-lock';
 import { useEffect } from "react";
-
-useLockScreenShot();
+import {register, unregister} from 'react-native-screenshot-lock';
 
 // ios Callback / android X
-
 export default () => {
  useEffect(() => {
     // param callback
+    // register : screenshotLock, unregister: screenshotUnLock
     register(() => {});
     return () => unregister();
   }, []);
+}
+```
+
+## Usage 2
+```javascript
+import React from "react";
+import { Text, View } from "react-native";
+import useLockScreenShot from 'react-native-screenshot-lock';
+import { useEffect } from "react";
+
+export default () => {
+    useLockScreenShot();
+    return (
+        <View>
+            <Text>React-Native-Screenshot-lock</Text>
+        </View>
+    );
 }
 ```

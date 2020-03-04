@@ -1,8 +1,8 @@
 {
   "name": "react-native-screenshot-lock",
   "title": "React Native Screenshot Lock",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "ReactNative Screenshot Lock/UnLock",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,7 +1,7 @@
 {
   "name": "react-native-screenshot-lock",
   "title": "React Native Screenshot Lock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ReactNative Screenshot Lock/UnLock",
   "main": "index.js",
   "scripts": {
